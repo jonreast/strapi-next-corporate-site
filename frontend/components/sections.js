@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import Hero from "@/components/sections/hero";
 import LargeVideo from "@/components/sections/large-video";
+import YouTube from "@/components/sections/youtube"
 import FeatureColumnsGroup from "@/components/sections/feature-columns-group";
 import FeatureRowsGroup from "@/components/sections/feature-rows-group";
 import BottomActions from "@/components/sections/bottom-actions";
@@ -12,7 +13,8 @@ import LeadForm from "./sections/lead-form";
 // Map Strapi sections to section components
 const sectionComponents = {
   "sections.hero": Hero,
-  "sections.large-video": LargeVideo,
+  "sections.large-video": LargeVideo, 
+  "sections.you-tube": YouTube,
   "sections.feature-columns-group": FeatureColumnsGroup,
   "sections.feature-rows-group": FeatureRowsGroup,
   "sections.bottom-actions": BottomActions,
